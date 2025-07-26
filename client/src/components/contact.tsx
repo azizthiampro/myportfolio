@@ -94,7 +94,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Email</h4>
-                  <p className="text-gray-600">alex.chen@dataengineering.dev</p>
+                  <p className="text-gray-600">azizthiampro@gmail.com</p>
                 </div>
               </div>
               
@@ -104,8 +104,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">LinkedIn</h4>
-                  <a href="#" className="text-primary hover:text-secondary transition-colors">
-                    linkedin.com/in/alexchen-dataeng
+                  <a href="https://www.linkedin.com/in/azizthiampro" className="text-primary hover:text-secondary transition-colors">
+                    linkedin.com/in/azizthiampro
                   </a>
                 </div>
               </div>
@@ -116,8 +116,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">GitHub</h4>
-                  <a href="#" className="text-primary hover:text-secondary transition-colors">
-                    github.com/alexchen-data
+                  <a href="https://github.com/azizthiampro" className="text-primary hover:text-secondary transition-colors">
+                    github.com/azizthiampro
                   </a>
                 </div>
               </div>
@@ -128,7 +128,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Location</h4>
-                  <p className="text-gray-600">San Francisco Bay Area, CA</p>
+                  <p className="text-gray-600">Paris, France</p>
                   <p className="text-sm text-gray-500">Open to remote opportunities</p>
                 </div>
               </div>

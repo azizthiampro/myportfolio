@@ -17,10 +17,10 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <div className="text-2xl font-bold text-primary">AC</div>
+            <div className="text-2xl font-bold text-primary">AT</div>
             <div className="hidden md:block ml-6">
-              <span className="text-lg font-semibold text-gray-900">Alex Chen</span>
-              <span className="text-sm text-gray-500 ml-2">Data Engineer</span>
+              <span className="text-lg font-semibold text-gray-900">Abdou Aziz Thiam</span>
+              <span className="text-sm text-gray-500 ml-2">Data Scientist</span>
             </div>
           </div>
           

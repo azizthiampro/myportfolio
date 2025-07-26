@@ -15,17 +15,17 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center mb-4">
-              <div className="text-2xl font-bold text-primary">AC</div>
-              <span className="text-lg font-semibold ml-2">Alex Chen</span>
+              <div className="text-2xl font-bold text-primary">AT</div>
+              <span className="text-lg font-semibold ml-2">Abdou Aziz Thiam</span>
             </div>
             <p className="text-gray-400 mb-4">
-              Data Engineer & Scientist specializing in cloud platforms, machine learning, and scalable data architectures.
+              Data Engineer & Scientist specializing in cloud platforms, machine learning, and Generative AI solutions.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-primary transition-colors">
+              <a href="https://www.linkedin.com/in/azizthiampro" className="text-gray-400 hover:text-primary transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-primary transition-colors">
+              <a href="https://github.com/azizthiampro" className="text-gray-400 hover:text-primary transition-colors">
                 <Github className="h-5 w-5" />
               </a>
               <a href="#" className="text-gray-400 hover:text-primary transition-colors">
@@ -104,7 +104,7 @@ export default function Footer() {
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            &copy; {new Date().getFullYear()} Alex Chen. All rights reserved. 
+            &copy; {new Date().getFullYear()} Abdou Aziz Thiam. All rights reserved. 
             Built with modern web technologies and deployed on cloud infrastructure.
           </p>
         </div>

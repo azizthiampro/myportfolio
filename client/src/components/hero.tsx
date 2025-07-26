@@ -22,12 +22,12 @@ export default function Hero() {
             </div>
             
             <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
-              Former Senior Developer, now
-              <span className="text-primary"> Data Expert</span>
+              From Web Developer to
+              <span className="text-primary"> Data Scientist</span>
             </h1>
             
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Senior Data Engineer & Scientist with 8+ years of experience, transitioned from full-stack development to specializing in cloud-native data solutions, ML engineering, and scalable data architectures across AWS, Azure, and GCP. Certified GCP Professional Data Engineer and Machine Learning Engineer.
+              Data Engineer/Scientist with 4 years of experience, including 1 year in cloud-native data systems and Generative AI. Transitioned from 3 years in web and mobile development to designing machine learning solutions, scalable data pipelines, and AI chatbots using AWS, Azure, GCP, PyTorch, and FastAPI. Google-certified (2x): GCP Professional Data Engineer and Machine Learning Engineer.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
@@ -67,7 +67,7 @@ export default function Hero() {
               <div className="w-80 h-80 bg-gradient-to-br from-primary to-accent rounded-2xl p-1">
                 <img 
                   src={profileImage} 
-                  alt="Alex Chen - Data Engineer & Scientist"
+                  alt="Abdou Aziz Thiam - Data Engineer & Scientist"
                   className="w-full h-full object-cover object-center rounded-xl"
                 />
               </div>

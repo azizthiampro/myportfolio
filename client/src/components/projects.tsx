@@ -21,7 +21,7 @@ export default function Projects() {
             />
             
             <div className="flex items-center justify-between mb-4">
-              <h3 className="text-2xl font-bold text-gray-900">FinanceBot AI</h3>
+              <h3 className="text-2xl font-bold text-gray-900">Finance Chatbot</h3>
               <div className="flex space-x-2">
                 <a href="#" className="text-gray-400 hover:text-primary transition-colors">
                   <Github className="h-5 w-5" />
@@ -33,63 +33,71 @@ export default function Projects() {
             </div>
             
             <p className="text-gray-600 mb-6">
-              Intelligent chatbot for financial services with fine-tuned LLM capabilities. Processes natural language queries about market data, portfolio analysis, and investment recommendations using real-time financial APIs.
+              Developed an NLP-based chatbot using financial APIs that improved insight generation by 18%. Built with modern AI technologies to provide intelligent financial analysis and recommendations.
             </p>
             
             <div className="bg-gray-50 p-4 rounded-lg mb-6">
               <h4 className="font-semibold text-gray-900 mb-2">Key Achievements:</h4>
               <ul className="text-sm text-gray-600 space-y-1">
-                <li>• Fine-tuned GPT-3.5 on 500K financial documents</li>
-                <li>• 95% accuracy in financial query classification</li>
-                <li>• Sub-200ms response time for complex queries</li>
-                <li>• Deployed on GCP with auto-scaling capabilities</li>
+                <li>• Improved insight generation by 18% through NLP integration</li>
+                <li>• Real-time financial data processing</li>
+                <li>• Advanced natural language understanding for queries</li>
+                <li>• Scalable architecture for high-volume requests</li>
               </ul>
             </div>
             
             {/* Code Example */}
             <div className="code-highlight p-4 rounded-lg mb-6">
               <div className="flex items-center justify-between mb-3">
-                <span className="text-white text-sm font-semibold">Fine-tuning Pipeline</span>
+                <span className="text-white text-sm font-semibold">NLP Processing Pipeline</span>
                 <span className="text-gray-300 text-xs">Python</span>
               </div>
               <pre className="text-gray-300 text-sm overflow-x-auto font-mono">
-{`# Fine-tuning setup for financial domain
-from transformers import GPTJForCausalLM, Trainer
-import torch
+{`# Financial NLP chatbot implementation
+import openai
+from transformers import pipeline
+import pandas as pd
 
-def create_financial_model():
-    model = GPTJForCausalLM.from_pretrained(
-        "EleutherAI/gpt-j-6B",
-        torch_dtype=torch.float16,
-        device_map="auto"
-    )
+class FinanceChatbot:
+    def __init__(self):
+        self.nlp_pipeline = pipeline(
+            "sentiment-analysis",
+            model="ProsusAI/finbert"
+        )
+        self.client = openai.Client()
     
-    # Custom financial tokenizer
-    tokenizer = FinancialTokenizer()
-    
-    return model, tokenizer
-
-# Training configuration
-training_args = TrainingArguments(
-    output_dir="./financial-gpt",
-    num_train_epochs=3,
-    per_device_train_batch_size=4,
-    learning_rate=5e-5,
-    fp16=True,
-    logging_steps=100
-)`}
+    def process_query(self, user_input):
+        # Extract financial entities
+        sentiment = self.nlp_pipeline(user_input)
+        
+        # Generate insights
+        response = self.client.chat.completions.create(
+            model="gpt-3.5-turbo",
+            messages=[{
+                "role": "system", 
+                "content": "Financial advisor assistant"
+            }, {
+                "role": "user", 
+                "content": user_input
+            }]
+        )
+        
+        return {
+            "sentiment": sentiment,
+            "insights": response.choices[0].message.content
+        }`}
               </pre>
             </div>
             
             <div className="flex flex-wrap gap-2">
-              <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Transformers</span>
-              <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">GCP Vertex AI</span>
-              <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">FastAPI</span>
-              <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Redis</span>
+              <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">NLP</span>
+              <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Financial APIs</span>
+              <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Python</span>
+              <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">OpenAI</span>
             </div>
           </div>
           
-          {/* ATS System Project */}
+          {/* CV Filter ATS Project */}
           <div className="project-card bg-white p-8 rounded-xl">
             <img 
               src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400" 
@@ -98,7 +106,7 @@ training_args = TrainingArguments(
             />
             
             <div className="flex items-center justify-between mb-4">
-              <h3 className="text-2xl font-bold text-gray-900">Smart ATS Platform</h3>
+              <h3 className="text-2xl font-bold text-gray-900">CV Filter ATS System</h3>
               <div className="flex space-x-2">
                 <a href="#" className="text-gray-400 hover:text-primary transition-colors">
                   <Github className="h-5 w-5" />
@@ -110,64 +118,66 @@ training_args = TrainingArguments(
             </div>
             
             <p className="text-gray-600 mb-6">
-              AI-powered Applicant Tracking System with automated resume parsing, skill matching, and bias detection. Processes 10K+ applications daily with intelligent ranking and automated scheduling.
+              Built an advanced ATS system using Gemini API for intelligent resume parsing and automated recruiter notifications. Streamlines the hiring process with AI-powered candidate screening and matching.
             </p>
             
             <div className="bg-gray-50 p-4 rounded-lg mb-6">
               <h4 className="font-semibold text-gray-900 mb-2">Key Achievements:</h4>
               <ul className="text-sm text-gray-600 space-y-1">
-                <li>• 87% improvement in candidate-role matching accuracy</li>
-                <li>• 60% reduction in time-to-hire</li>
-                <li>• Bias detection reducing discriminatory filtering by 45%</li>
-                <li>• Scalable architecture handling 50K+ concurrent users</li>
+                <li>• Automated resume parsing with 95+ accuracy using Gemini API</li>
+                <li>• Intelligent recruiter notification system</li>
+                <li>• Advanced candidate screening and ranking</li>
+                <li>• Streamlined hiring workflow automation</li>
               </ul>
             </div>
             
             {/* Code Example */}
             <div className="code-highlight p-4 rounded-lg mb-6">
               <div className="flex items-center justify-between mb-3">
-                <span className="text-white text-sm font-semibold">Resume Processing Pipeline</span>
+                <span className="text-white text-sm font-semibold">Resume Processing with Gemini</span>
                 <span className="text-gray-300 text-xs">Python</span>
               </div>
               <pre className="text-gray-300 text-sm overflow-x-auto font-mono">
-{`# Resume parsing and skill extraction
-from apache_beam import Pipeline
-import apache_beam as beam
+{`# CV Filter ATS with Gemini API
+import google.generativeai as genai
+from dataclasses import dataclass
+import json
 
-class ResumeProcessor:
-    def __init__(self):
-        self.skill_extractor = SkillExtractor()
-        self.bias_detector = BiasDetector()
+@dataclass
+class ResumeData:
+    skills: list
+    experience: str
+    education: str
+    contact_info: dict
+
+class CVFilter:
+    def __init__(self, api_key):
+        genai.configure(api_key=api_key)
+        self.model = genai.GenerativeModel('gemini-pro')
     
-    def process_resume(self, resume_data):
-        # Extract structured data
-        skills = self.skill_extractor.extract(resume_data)
-        experience = self.extract_experience(resume_data)
+    def parse_resume(self, resume_text):
+        prompt = f"""
+        Extract structured data from this resume:
+        {resume_text}
         
-        # Bias detection
-        bias_score = self.bias_detector.evaluate(resume_data)
+        Return JSON with: skills, experience, education, contact_info
+        """
         
-        return {
-            'skills': skills,
-            'experience': experience,
-            'bias_score': bias_score,
-            'processed_at': datetime.utcnow()
-        }
-
-# Apache Beam pipeline for batch processing
-with Pipeline() as pipeline:
-    (pipeline 
-     | 'Read Resumes' >> beam.io.ReadFromBigQuery(query)
-     | 'Process' >> beam.Map(processor.process_resume)
-     | 'Write Results' >> beam.io.WriteToBigQuery(table))`}
+        response = self.model.generate_content(prompt)
+        return json.loads(response.text)
+    
+    def notify_recruiter(self, candidate_data, job_match_score):
+        if job_match_score > 0.8:
+            # Send notification to recruiter
+            return self.send_notification(candidate_data)`}
               </pre>
             </div>
             
             <div className="flex flex-wrap gap-2">
-              <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Apache Beam</span>
-              <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">spaCy</span>
-              <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">BigQuery</span>
-              <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Kubernetes</span>
+              <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Gemini API</span>
+              <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Python</span>
+              <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">AI Parsing</span>
+              <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Automation</span>
             </div>
           </div>
         </div>
@@ -177,15 +187,15 @@ with Pipeline() as pipeline:
           <div className="bg-gray-50 p-6 rounded-xl">
             <div className="flex items-center mb-4">
               <TrendingUp className="text-accent text-2xl mr-3" />
-              <h4 className="text-lg font-bold text-gray-900">Real-time Analytics Dashboard</h4>
+              <h4 className="text-lg font-bold text-gray-900">Time Series Forecasting</h4>
             </div>
             <p className="text-gray-600 text-sm mb-4">
-              Streaming analytics platform processing 1M+ events/hour with sub-second latency visualization.
+              Built LSTM and Prophet models for energy and stock price forecasting, achieving 87% accuracy on Kaggle competitions.
             </p>
             <div className="flex flex-wrap gap-1">
-              <span className="bg-gray-200 text-gray-700 px-2 py-1 rounded text-xs">Kafka</span>
-              <span className="bg-gray-200 text-gray-700 px-2 py-1 rounded text-xs">Flink</span>
-              <span className="bg-gray-200 text-gray-700 px-2 py-1 rounded text-xs">D3.js</span>
+              <span className="bg-gray-200 text-gray-700 px-2 py-1 rounded text-xs">LSTM</span>
+              <span className="bg-gray-200 text-gray-700 px-2 py-1 rounded text-xs">Prophet</span>
+              <span className="bg-gray-200 text-gray-700 px-2 py-1 rounded text-xs">PyTorch</span>
             </div>
           </div>
           

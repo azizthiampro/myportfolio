@@ -1,0 +1,104 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+\titleformat{\section}{\color{blue}\large\bfseries}{}{0em}{}
+
+
+\begin{document}
+
+\begin{center}
+    \textbf{\LARGE Abdou Aziz Thiam} \\
+    \href{mailto:azizthiampro@gmail.com}{azizthiampro@gmail.com} \\
+    +33 620900618 \\
+    \href{https://github.com/azizthiampro}{https://github.com/azizthiampro} \\
+    \href{https://www.linkedin.com/in/azizthiampro}{https://www.linkedin.com/in/azizthiampro} \\
+    Paris, France
+\end{center}
+
+\section*{Summary}
+Data Engineer/Scientist with 4 years of experience, including 1 year in cloud-native data systems and Generative AI. Transitioned from 3 years in web and mobile development to designing machine learning solutions, scalable data pipelines, and AI chatbots using AWS, Azure, GCP, PyTorch, and FastAPI. Proven success in finance and retail sectors. \textbf{Google-certified (2x)}: GCP Professional Data Engineer and Machine Learning Engineer. Passionate about leveraging engineering principles to solve real-world AI problems.
+
+\section*{Technical Skills}
+\textbf{Languages:} Python, C++, R, JavaScript \\
+\textbf{ML/DL Frameworks:} PyTorch, TensorFlow, Keras, FastAI, HuggingFace \\
+\textbf{NLP/LLMs:} GPT, Transformers, SpaCy, NLTK, RAG \\
+\textbf{Cloud Platforms:} AWS, GCP, Azure \\
+\textbf{Big Data Tools:} Hadoop, Spark \\
+\textbf{Databases:} PostgreSQL, MySQL, BigQuery, MongoDB, Cassandra \\
+\textbf{Visualization Tools:} Tableau, Power BI, Looker, Seaborn, Matplotlib \\
+\textbf{Dev Tools:} Git, GitHub, GitLab, Azure DevOps \\
+\textbf{Mathematics:} Statistics, Probability, Calculus, Linear Algebra
+
+\section*{Experience}
+
+\textbf{Consultant Data Engineer/Scientist} \\
+Deloitte France, Puteaux \hfill Feb 2025 – Aug 2025
+\begin{itemize}[leftmargin=*]
+    \item Built a Generative AI chatbot using AWS Bedrock, Lambda, and Route 53.
+    \item Deployed cloud services via Amazon RDS, EC2, CloudFront, API Gateway, Cognito, and VPC.
+    \item Designed a secure, scalable chatbot architecture using Azure and Azure DevOps.
+    \item Modeled KPIs using Google Cloud BigQuery and developed ingestion pipelines for Richemont brands (Van Cleef \& Arpels, Cartier, Montblanc).
+\end{itemize}
+
+\textbf{Generative AI \& Machine Learning Intern} \\
+Steer AI, Versailles \hfill Aug 2024 – Nov 2024
+\begin{itemize}[leftmargin=*]
+    \item Migrated TensorFlow-based car damage detection models to PyTorch.
+    \item Built a chatbot using OpenAI APIs, RAG (Retrieval-Augmented Generation), and Hummingbird.
+\end{itemize}
+
+\textbf{Mobile and Web Application Developer} \\
+Irisoftech, Dakar \hfill Nov 2020 – Jan 2023
+\begin{itemize}[leftmargin=*]
+    \item Developed mobile and web applications using Flutter and Angular.
+    \item Digitized internal workflows to improve operational efficiency.
+\end{itemize}
+
+\textbf{Web Developer} \\
+DSI Université de Thiès, Senegal \hfill Sep 2019 – Nov 2020
+\begin{itemize}[leftmargin=*]
+    \item Built full-stack applications using Angular and Symfony.
+    \item Delivered web tools for academic and administrative use.
+\end{itemize}
+
+\section*{Projects}
+
+\textbf{CV Filter} — Paris, France \hfill Jan 2025 – Feb 2025 \\
+Built an ATS system using Gemini API for resume parsing and recruiter notifications.
+
+\textbf{Finance Chatbot} — Paris, France \hfill Jun 2024 \\
+Developed an NLP-based chatbot using financial APIs; improved insight generation by 18\%.
+
+\textbf{Time Series Forecasting} — Paris, France \hfill Mar 2024 – May 2024 \\
+Built LSTM and Prophet models for energy and stock price forecasting; achieved 87\% accuracy on Kaggle.
+
+\section*{Education}
+\textbf{Master’s in Distributed Artificial Intelligence} \\
+Université Paris Cité, Paris, France \hfill 2023 – 2025
+
+\textbf{Master’s in Computer Science} \\
+Université Iba Der THIAM de Thiès, Senegal \hfill 2020 – 2023
+
+\textbf{Bachelor’s in Computer Science} \\
+Université Iba Der THIAM de Thiès, Senegal \hfill 2017 – 2020
+
+\section*{Certifications}
+\begin{itemize}[leftmargin=*]
+    \item GCP Professional Data Engineer – Google
+    \item GCP Professional Machine Learning Engineer – Google
+    \item Data Science Professional Certificate – IBM
+    \item Python for Data Science, AI \& Development – IBM
+    \item \textbf{In progress:} Databricks Data Engineer Professional Certification
+\end{itemize}
+
+\section*{Languages}
+English (native bilingual proficiency), French (native bilingual proficiency)
+
+\end{document}
