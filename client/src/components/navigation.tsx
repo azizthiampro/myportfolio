@@ -44,6 +44,12 @@ export default function Navigation() {
               Experience
             </button>
             <button 
+              onClick={() => scrollToSection('education')} 
+              className="nav-link text-gray-700 hover:text-primary font-medium"
+            >
+              Education
+            </button>
+            <button 
               onClick={() => scrollToSection('projects')} 
               className="nav-link text-gray-700 hover:text-primary font-medium"
             >
@@ -94,6 +100,12 @@ export default function Navigation() {
             className="block px-3 py-2 text-gray-700 hover:text-primary font-medium w-full text-left"
           >
             Experience
+          </button>
+          <button 
+            onClick={() => scrollToSection('education')} 
+            className="block px-3 py-2 text-gray-700 hover:text-primary font-medium w-full text-left"
+          >
+            Education
           </button>
           <button 
             onClick={() => scrollToSection('projects')} 
