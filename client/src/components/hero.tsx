@@ -68,7 +68,7 @@ export default function Hero() {
                 <img 
                   src={profileImage} 
                   alt="Alex Chen - Data Engineer & Scientist"
-                  className="w-full h-full object-cover rounded-xl"
+                  className="w-full h-full object-cover object-center rounded-xl"
                 />
               </div>
               
