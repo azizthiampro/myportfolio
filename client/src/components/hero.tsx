@@ -1,5 +1,6 @@
-import { User, Download, Cloud } from "lucide-react";
+import { Download, Cloud } from "lucide-react";
 import { SiGooglecloud, SiAmazon } from "react-icons/si";
+import profileImage from "@assets/image_1753493265770.png";
 
 export default function Hero() {
   const scrollToContact = () => {
@@ -64,9 +65,11 @@ export default function Hero() {
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
               <div className="w-80 h-80 bg-gradient-to-br from-primary to-accent rounded-2xl p-1">
-                <div className="w-full h-full bg-gray-200 rounded-xl flex items-center justify-center">
-                  <User className="text-gray-400 h-24 w-24" />
-                </div>
+                <img 
+                  src={profileImage} 
+                  alt="Alex Chen - Data Engineer & Scientist"
+                  className="w-full h-full object-cover rounded-xl"
+                />
               </div>
               
               <div className="absolute -top-4 -right-4 bg-white p-3 rounded-xl shadow-lg">
