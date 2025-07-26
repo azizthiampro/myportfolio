@@ -64,11 +64,11 @@ export default function Hero() {
           
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
-              <div className="w-80 h-80 bg-gradient-to-br from-primary to-accent rounded-2xl p-1">
+              <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-white shadow-2xl">
                 <img 
                   src={profileImage} 
                   alt="Abdou Aziz Thiam - Data Engineer & Scientist"
-                  className="w-full h-full object-cover object-center rounded-xl"
+                  className="w-full h-full object-cover object-center"
                 />
               </div>
               
