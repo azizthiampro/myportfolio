@@ -2,6 +2,7 @@ import { Download, Cloud } from "lucide-react";
 import { SiGooglecloud, SiAmazon } from "react-icons/si";
 import profileImage from "@assets/image_1753493265770.png";
 import resumePDF from "@assets/AbdouTcv_1753494441116.pdf";
+import { MdDataObject } from "react-icons/md";
 
 export default function Hero() {
   const scrollToContact = () => {
@@ -23,8 +24,8 @@ export default function Hero() {
             </div>
 
             <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
-              From Web Developer to
-              <span className="text-primary"> Data Scientist</span>
+              From Fullstack Developer to
+              <span className="text-primary"> Data Fullstack</span>
             </h1>
 
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
@@ -85,9 +86,9 @@ export default function Hero() {
                 />
               </div>
 
-              <div className="absolute -top-4 -right-4 bg-white p-3 rounded-xl shadow-lg">
-                <SiGooglecloud className="w-12 h-12 text-blue-500" />
-              </div>
+            <div className="absolute -top-4 -right-4 bg-white p-3 rounded-xl shadow-lg">
+              <MdDataObject className="w-12 h-12 text-indigo-500" />
+            </div>
 
               <div className="absolute -bottom-4 -left-4 bg-white p-3 rounded-xl shadow-lg">
                 <SiGooglecloud className="w-12 h-12 text-green-500" />

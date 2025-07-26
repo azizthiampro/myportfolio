@@ -1,5 +1,7 @@
 import { Code, Database, Brain, Settings, Cloud } from "lucide-react";
 import { SiAmazon, SiGooglecloud } from "react-icons/si";
+import { TfiMicrosoftAlt } from "react-icons/tfi";
+
 
 export default function Skills() {
   return (
@@ -16,7 +18,7 @@ export default function Skills() {
         <div className="mb-16">
           <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">Cloud Platforms</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="skill-card bg-gradient-to-br from-orange-50 to-orange-100 p-8 rounded-xl text-center">
+            <div className="skill-card bg-gradient-to-br from-orange-50 to-orange-100 p-8 rounded-xl text-center transition border-2 border-transparent hover:border-primary hover:shadow-lg">
               <SiAmazon className="text-orange-500 text-4xl mb-4 mx-auto" />
               <h4 className="text-xl font-bold text-gray-900 mb-2">Amazon Web Services</h4>
               <p className="text-gray-600 mb-4">EMR, Glue, Redshift, S3, Lambda, SageMaker</p>
@@ -25,7 +27,7 @@ export default function Skills() {
               </div>
             </div>
             
-            <div className="skill-card bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-xl text-center border-2 border-primary">
+            <div className="skill-card bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-xl text-center transition border-2 border-transparent hover:border-primary hover:shadow-lg">
               <SiGooglecloud className="text-blue-500 text-4xl mb-4 mx-auto" />
               <h4 className="text-xl font-bold text-gray-900 mb-2">Google Cloud Platform</h4>
               <p className="text-gray-600 mb-4">BigQuery, Dataflow, Composer, AI Platform, Cloud Functions</p>
@@ -35,8 +37,8 @@ export default function Skills() {
               </div>
             </div>
             
-            <div className="skill-card bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-xl text-center">
-              <Cloud className="text-blue-600 text-4xl mb-4 mx-auto" />
+          <div className="skill-card bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-xl text-center transition border-2 border-transparent hover:border-primary hover:shadow-lg">
+              <TfiMicrosoftAlt className="text-blue-600 text-4xl mb-4 mx-auto" />
               <h4 className="text-xl font-bold text-gray-900 mb-2">Microsoft Azure</h4>
               <p className="text-gray-600 mb-4">Data Factory, Synapse, Databricks, ML Studio</p>
               <div className="flex justify-center">

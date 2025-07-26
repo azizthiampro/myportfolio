@@ -36,7 +36,7 @@ export default function Education() {
                   </div>
                 </div>
                 <div className="mt-4 lg:mt-0">
-                  <span className="bg-primary text-white px-4 py-2 rounded-full text-sm font-medium">Current</span>
+                  <span className="bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-medium">Completed</span>
                 </div>
               </div>
               
@@ -118,7 +118,7 @@ export default function Education() {
                   </div>
                 </div>
                 <div className="mt-4 lg:mt-0">
-                  <span className="bg-gray-100 text-gray-800 px-4 py-2 rounded-full text-sm font-medium">Completed</span>
+                  <span className="bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-medium">Completed</span>
                 </div>
               </div>
               

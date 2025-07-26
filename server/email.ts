@@ -1,4 +1,6 @@
 import nodemailer from 'nodemailer';
+import dotenv from 'dotenv';
+dotenv.config();
 
 export interface EmailData {
   name: string;
@@ -10,6 +12,10 @@ export interface EmailData {
 
 export async function sendContactEmail(data: EmailData): Promise<boolean> {
   try {
+
+    console.log("EMAIL USER:", process.env.GMAIL_USER);
+console.log("EMAIL PASS:", process.env.GMAIL_APP_PASSWORD);
+
     // Create transporter using Gmail SMTP
     const transporter = nodemailer.createTransport({
       service: 'gmail',
