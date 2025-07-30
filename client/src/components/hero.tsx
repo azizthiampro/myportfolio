@@ -1,6 +1,6 @@
 import { Download, Cloud } from "lucide-react";
 import { SiGooglecloud, SiAmazon } from "react-icons/si";
-import profileImage from "@assets/image_1753493265770.png";
+import profileImage from "@assets/cropped.png";
 import resumePDF from "@assets/AbdouTcv_1753494441116.pdf";
 import { MdDataObject } from "react-icons/md";
 
@@ -77,14 +77,12 @@ export default function Hero() {
           </div>
 
           <div className="flex justify-center lg:justify-end">
-            <div className="relative">
-              <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-white shadow-2xl">
-                <img
-                  src={profileImage}
-                  alt="Abdou Aziz Thiam - Data Engineer & Scientist"
-                  className="w-full h-full object-contain object-center bg-white"
-                />
-              </div>
+        <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-white shadow-2xl">
+          <img
+            src={profileImage}
+            alt="Abdou Aziz Thiam - Data Engineer & Scientist"
+            className="w-full h-full object-contain object-center bg-white drop-shadow-lg"
+          />
 
             <div className="absolute -top-4 -right-4 bg-white p-3 rounded-xl shadow-lg">
               <MdDataObject className="w-12 h-12 text-indigo-500" />
