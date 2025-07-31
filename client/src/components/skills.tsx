@@ -21,28 +21,41 @@ export default function Skills() {
             <div className="skill-card bg-gradient-to-br from-orange-50 to-orange-100 p-8 rounded-xl text-center transition border-2 border-transparent hover:border-primary hover:shadow-lg">
               <SiAmazon className="text-orange-500 text-4xl mb-4 mx-auto" />
               <h4 className="text-xl font-bold text-gray-900 mb-2">Amazon Web Services</h4>
-              <p className="text-gray-600 mb-4">EMR, Glue, Redshift, S3, Lambda, SageMaker</p>
+<p className="text-gray-600 mb-4">
+  Lambda, EC2, Bedrock, Route 53, CloudFront, EMR, Glue, Redshift, S3, SageMaker, 
+  Athena, Kinesis, DynamoDB, RDS, Aurora, Step Functions, Data Pipeline, 
+  QuickSight, OpenSearch, Lake Formation, Data Exchange
+</p>
               <div className="flex justify-center">
-                <span className="bg-orange-500 text-white px-3 py-1 rounded-full text-sm">5+ Years</span>
+                <span className="bg-orange-500 text-white px-3 py-1 rounded-full text-sm">2+ Years</span>
               </div>
             </div>
             
             <div className="skill-card bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-xl text-center transition border-2 border-transparent hover:border-primary hover:shadow-lg">
               <SiGooglecloud className="text-blue-500 text-4xl mb-4 mx-auto" />
               <h4 className="text-xl font-bold text-gray-900 mb-2">Google Cloud Platform</h4>
-              <p className="text-gray-600 mb-4">BigQuery, Dataflow, Composer, AI Platform, Cloud Functions</p>
+<p className="text-gray-600 mb-4">
+  BigQuery, Dataflow, Composer, AI Platform, Cloud Functions, Dataproc, Pub/Sub, 
+  Data Catalog, Data Fusion, Looker, Vertex AI, Cloud Storage, Firestore, 
+  Datastore, Cloud SQL, Spanner, Dataplex, Cloud Run, AutoML, Data Studio
+</p>
               <div className="flex justify-center space-x-2">
-                <span className="bg-green-500 text-white px-3 py-1 rounded-full text-sm">Certified</span>
-                <span className="bg-blue-500 text-white px-3 py-1 rounded-full text-sm">3+ Years</span>
+                <span className="bg-green-500 text-white px-3 py-1 rounded-full text-sm">2x Pro Certified</span>
+                <span className="bg-blue-500 text-white px-3 py-1 rounded-full text-sm">4+ Years</span>
               </div>
             </div>
             
           <div className="skill-card bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-xl text-center transition border-2 border-transparent hover:border-primary hover:shadow-lg">
               <TfiMicrosoftAlt className="text-blue-600 text-4xl mb-4 mx-auto" />
               <h4 className="text-xl font-bold text-gray-900 mb-2">Microsoft Azure</h4>
-              <p className="text-gray-600 mb-4">Data Factory, Synapse, Databricks, ML Studio</p>
+<p className="text-gray-600 mb-4">
+  Data Factory, Synapse Analytics, Databricks, Machine Learning Studio, HDInsight, 
+  Azure Data Lake Storage, Stream Analytics, Event Hubs, Power BI, Cosmos DB, 
+  SQL Database, Azure Purview, Cognitive Services, Analysis Services, 
+  Azure Functions
+</p>
               <div className="flex justify-center">
-                <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm">2+ Years</span>
+                <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm">1 Year</span>
               </div>
             </div>
           </div>

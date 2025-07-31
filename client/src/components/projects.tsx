@@ -1,4 +1,7 @@
 import { Github, ExternalLink, TrendingUp, Bot, Database } from "lucide-react";
+import financeImage from "@assets/finance.jpg";
+import hrImage from "@assets/hr.jpg";
+
 
 export default function Projects() {
   return (
@@ -15,7 +18,7 @@ export default function Projects() {
           {/* Finance Chatbot Project */}
           <div className="project-card bg-white p-8 rounded-xl">
             <img 
-              src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400" 
+              src={financeImage}
               alt="Finance dashboard with charts and analytics" 
               className="w-full h-48 object-cover rounded-lg mb-6"
             />
@@ -23,10 +26,12 @@ export default function Projects() {
             <div className="flex items-center justify-between mb-4">
               <h3 className="text-2xl font-bold text-gray-900">Finance Chatbot</h3>
               <div className="flex space-x-2">
-                <a href="#" className="text-gray-400 hover:text-primary transition-colors">
+                <a href="https://github.com/azizthiampro"  target="_blank" 
+  rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition-colors">
                   <Github className="h-5 w-5" />
                 </a>
-                <a href="#" className="text-gray-400 hover:text-primary transition-colors">
+                <a href="https://github.com/azizthiampro"  target="_blank" 
+  rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition-colors">
                   <ExternalLink className="h-5 w-5" />
                 </a>
               </div>
@@ -100,7 +105,7 @@ class FinanceChatbot:
           {/* CV Filter ATS Project */}
           <div className="project-card bg-white p-8 rounded-xl">
             <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400" 
+              src={hrImage}
               alt="Recruitment dashboard with candidate profiles" 
               className="w-full h-48 object-cover rounded-lg mb-6"
             />
@@ -108,10 +113,12 @@ class FinanceChatbot:
             <div className="flex items-center justify-between mb-4">
               <h3 className="text-2xl font-bold text-gray-900">CV Filter ATS System</h3>
               <div className="flex space-x-2">
-                <a href="#" className="text-gray-400 hover:text-primary transition-colors">
+                <a href="https://github.com/azizthiampro"  target="_blank" 
+  rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition-colors">
                   <Github className="h-5 w-5" />
                 </a>
-                <a href="#" className="text-gray-400 hover:text-primary transition-colors">
+                <a href="https://github.com/azizthiampro"  target="_blank" 
+  rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition-colors">
                   <ExternalLink className="h-5 w-5" />
                 </a>
               </div>

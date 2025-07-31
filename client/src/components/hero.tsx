@@ -70,19 +70,21 @@ export default function Hero() {
               <div className="flex items-center space-x-2">
                 <Cloud className="text-primary text-xl" />
                 <span className="text-sm text-gray-600">
-                  Multi-Cloud Expert
+                  Multi-Cloud 
                 </span>
               </div>
             </div>
           </div>
 
           <div className="flex justify-center lg:justify-end">
-        <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-white shadow-2xl">
-          <img
-            src={profileImage}
-            alt="Abdou Aziz Thiam - Data Engineer & Scientist"
-            className="w-full h-full object-contain object-center bg-white drop-shadow-lg"
-          />
+            <div className="relative">
+              <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-white shadow-2xl">
+                <img
+                  src={profileImage}
+                  alt="Abdou Aziz Thiam - Data Engineer & Scientist"
+                  className="w-full h-full object-contain object-center bg-white"
+                />
+              </div>
 
             <div className="absolute -top-4 -right-4 bg-white p-3 rounded-xl shadow-lg">
               <MdDataObject className="w-12 h-12 text-indigo-500" />
