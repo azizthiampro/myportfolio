@@ -1,7 +1,7 @@
 import { Download, Cloud } from "lucide-react";
 import { SiGooglecloud, SiAmazon } from "react-icons/si";
 import profileImage from "@assets/cropped.png";
-import resumePDF from "@assets/AbdouTcv_1753494441116.pdf";
+import resumePDF from "@assets/cv_tech.pdf";
 import { MdDataObject } from "react-icons/md";
 
 export default function Hero() {
