@@ -103,11 +103,11 @@ export default function Skills() {
                 <span className="text-primary font-semibold">Expert</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-gray-700">Kafka</span>
+                <span className="text-gray-700">Snowflake</span>
                 <span className="text-accent font-semibold">Advanced</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-gray-700">dbt</span>
+                <span className="text-gray-700">Databricks</span>
                 <span className="text-accent font-semibold">Advanced</span>
               </div>
             </div>

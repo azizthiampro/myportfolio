@@ -12,7 +12,7 @@ type ExperienceType = {
 
 const calculateDuration = (startDate: string | Date, endDate: string | Date): string => {
   const start = new Date(startDate);
-  const end = new Date(endDate);
+  const end = endDate === 'Present' ? new Date() : new Date(endDate);
   const months = (end.getFullYear() - start.getFullYear()) * 12 + (end.getMonth() - start.getMonth() + 1);
 
   if (months < 12) return `${months} month${months > 1 ? 's' : ''}`;
@@ -23,11 +23,22 @@ const calculateDuration = (startDate: string | Date, endDate: string | Date): st
 };
 
 const formatDate = (date: string | Date): string => {
+  if (date === 'Present') return 'Present';
   return new Date(date).toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
 };
 
 export default function Experience() {
   const experiences: ExperienceType[] = [
+    {
+      title: 'Data Engineer',
+      company: 'TF1 (Freelancing through Deloitte)',
+      start: '2025-09-01',
+      end: 'Present',
+      description:
+        'Mission: Data Engineer at TF1, freelancing through Deloitte.\n- Migrated Databricks Unity Catalog to enhance governance and security.\n- Designed and optimized data workflows using Azure Data Factory (ADF) and Azure Data Lake Storage (ADLS).',
+      skills: ['Databricks', 'Unity Catalog', 'Azure ADF', 'Azure ADLS'],
+      color: 'bg-blue-500',
+    },
     {
       title: 'Consultant Data Engineer/Scientist',
       company: 'Deloitte France',
