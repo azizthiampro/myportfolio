@@ -20,7 +20,7 @@ export default function Navigation() {
             <div className="text-2xl font-bold text-primary">AT</div>
             <div className="hidden md:block ml-6">
               <span className="text-lg font-semibold text-gray-900">Abdou Aziz Thiam</span>
-              <span className="text-sm text-gray-500 ml-2">Data Fullstack</span>
+              <span className="text-sm text-gray-500 ml-2">Data Engineer</span>
             </div>
           </div>
           

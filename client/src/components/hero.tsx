@@ -1,5 +1,5 @@
 import { Download, Cloud } from "lucide-react";
-import { SiGooglecloud, SiAmazon } from "react-icons/si";
+import { SiGooglecloud } from "react-icons/si";
 import profileImage from "@assets/cropped.png";
 import resumePDF from "@assets/cv_tech.pdf";
 import { MdDataObject } from "react-icons/md";
@@ -19,22 +19,23 @@ export default function Hero() {
           <div>
             <div className="mb-6">
               <span className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-medium">
-                Available for Opportunities
+                On Full-Time Contract at Deloitte
               </span>
             </div>
 
             <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
-              From Fullstack Developer to
-              <span className="text-primary"> Data Fullstack</span>
+              Data Engineer Building
+              <span className="text-primary"> Cloud-Scale AI Platforms</span>
             </h1>
 
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Data Engineer/Scientist with 4 years of experience, including 1
-              year in cloud-native data systems and Generative AI. Transitioned
-              from 3 years in web and mobile development to designing machine
-              learning solutions, scalable data pipelines, and AI chatbots using
-              AWS, Azure, GCP, PyTorch, and FastAPI. Google-certified (2x): GCP
-              Professional Data Engineer and Machine Learning Engineer.
+              Data Engineer with 4+ years of experience across software,
+              analytics, and AI delivery. Currently on a full-time contract at
+              Deloitte, I build production-grade data pipelines and GenAI
+              solutions using AWS, Azure, GCP, Databricks, and Python. I bring
+              strong engineering fundamentals from a full-stack background,
+              combined with Google certifications in Data Engineering and
+              Machine Learning.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">

@@ -19,7 +19,7 @@ export default function Footer() {
               <span className="text-lg font-semibold ml-2">Abdou Aziz Thiam</span>
             </div>
             <p className="text-gray-400 mb-4">
-              Data Engineer & Scientist specializing in cloud platforms, machine learning, and Generative AI solutions.
+              Data Engineer currently on full-time contract at Deloitte, specializing in cloud platforms, machine learning, and Generative AI solutions.
             </p>
             <div className="flex space-x-4">
               <a href="https://www.linkedin.com/in/azizthiampro" className="text-gray-400 hover:text-primary transition-colors">

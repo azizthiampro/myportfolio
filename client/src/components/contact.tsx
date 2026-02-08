@@ -78,7 +78,7 @@ export default function Contact() {
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Get In Touch</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Ready to discuss data engineering opportunities, consulting projects, or technical collaborations? Let's connect.
+            Currently on a full-time contract at Deloitte and open to strategic collaborations in data engineering, cloud, and AI.
           </p>
         </div>
         
@@ -129,25 +129,25 @@ export default function Contact() {
                 <div>
                   <h4 className="font-semibold text-gray-900">Location</h4>
                   <p className="text-gray-600">Paris, France</p>
-                  <p className="text-sm text-gray-500">Open to remote opportunities</p>
+                  <p className="text-sm text-gray-500">Open to remote collaborations</p>
                 </div>
               </div>
             </div>
             
             <div className="mt-12">
-              <h4 className="font-semibold text-gray-900 mb-4">Available For:</h4>
+              <h4 className="font-semibold text-gray-900 mb-4">Current Focus:</h4>
               <ul className="space-y-2 text-gray-600">
                 <li className="flex items-center">
                   <CheckCircle className="text-green-500 mr-2 h-4 w-4" />
-                  Full-time Data Engineering roles
+                  Enterprise data engineering missions
                 </li>
                 <li className="flex items-center">
                   <CheckCircle className="text-green-500 mr-2 h-4 w-4" />
-                  Consulting and freelance projects
+                  Consulting and architecture advisory
                 </li>
                 <li className="flex items-center">
                   <CheckCircle className="text-green-500 mr-2 h-4 w-4" />
-                  Technical advisory positions
+                  GenAI and LLM solution design reviews
                 </li>
                 <li className="flex items-center">
                   <CheckCircle className="text-green-500 mr-2 h-4 w-4" />
@@ -210,7 +210,7 @@ export default function Contact() {
                     <SelectValue placeholder="Select a subject" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="job-opportunity">Job Opportunity</SelectItem>
+                    <SelectItem value="data-project">Data Engineering Project</SelectItem>
                     <SelectItem value="consulting">Consulting Project</SelectItem>
                     <SelectItem value="collaboration">Technical Collaboration</SelectItem>
                     <SelectItem value="speaking">Speaking Engagement</SelectItem>

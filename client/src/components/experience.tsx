@@ -30,24 +30,24 @@ const formatDate = (date: string | Date): string => {
 export default function Experience() {
   const experiences: ExperienceType[] = [
     {
-      title: 'Data Engineer',
-      company: 'TF1 (Freelancing through Deloitte)',
+      title: 'Data Engineer (Full-Time Contract)',
+      company: 'Deloitte France (Client: TF1)',
       start: '2025-09-01',
       end: 'Present',
       description:
-        'Mission: Data Engineer at TF1, freelancing through Deloitte.\n- Migrated Databricks Unity Catalog to enhance governance and security.\n- Designed and optimized data workflows using Azure Data Factory (ADF) and Azure Data Lake Storage (ADLS).',
-      skills: ['Databricks', 'Unity Catalog', 'Azure ADF', 'Azure ADLS'],
-      color: 'bg-blue-500',
+        'Mission: Full-time contract Data Engineer at Deloitte France for TF1.\n- Led Databricks Unity Catalog migration to strengthen governance, lineage, and access control.\n- Designed and optimized Azure data workflows using Azure Data Factory (ADF) and Azure Data Lake Storage (ADLS).\n- Improved delivery reliability through performance tuning and close collaboration with analytics stakeholders.',
+      skills: ['Databricks', 'Unity Catalog', 'Azure ADF', 'Azure ADLS', 'SQL'],
+      color: 'bg-primary',
     },
     {
-      title: 'Consultant Data Engineer/Scientist',
+      title: 'Consultant Data Engineer/AI',
       company: 'Deloitte France',
       start: '2025-02-01',
       end: '2025-08-01',
       description:
-        'Mission: Data Scientist/Engineer at Deloitte France, working on projects for Richemont (parent company of luxury brands such as Van Cleef & Arpels, Cartier, Montblanc).\n- Developed batch data ingestion pipelines leveraging Google BigQuery and BigQuery Notebooks for large-scale data processing and KPI modeling.\n- Delivered an AWS-based cloud solution using AuroraDB, EC2, CloudFront, API Gateway, Cognito, and Bedrock for scalability and security.\n- Built and deployed a Generative AI chatbot using AWS backend and OpenSearch for intelligent CV retrieval.\n- Designed a comprehensive cloud architecture on Microsoft Azure integrating multiple services for secure and production-ready data workflows.',
-      skills: ['AWS ', 'GCP ', 'Azure', 'Databricks','Snowflake','Lambda', 'OpenSearch'],
-      color: 'bg-primary',
+        'Mission: Data Engineer/AI consultant at Deloitte France for Richemont.\n- Built batch ingestion pipelines with BigQuery and BigQuery Notebooks for KPI modeling at scale.\n- Delivered AWS solutions using AuroraDB, EC2, CloudFront, API Gateway, Cognito, and Bedrock.\n- Built a Generative AI chatbot with AWS services and OpenSearch for intelligent CV retrieval.\n- Designed a production-ready Azure architecture supporting secure analytics workflows.\n- Worked with financial institutions on secure data platforms and governance requirements in regulated environments.',
+      skills: ['AWS', 'GCP', 'Azure', 'Databricks', 'Snowflake', 'Lambda', 'OpenSearch'],
+      color: 'bg-blue-500',
     },
     {
       title: 'Generative AI & Machine Learning Intern',
